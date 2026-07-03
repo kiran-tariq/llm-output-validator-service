@@ -1,0 +1,2 @@
+# llm_output_validator
+Built a FastAPI-based LLM Output Validator Service that enforces structured outputs using Pydantic schemas. The service validates responses from a local Qwen model running through Ollama, automatically retries failed outputs with error-guided correction prompts, and tracks validation metrics in SQLite. Features include schema discovery, validation analytics, retry logging, and Swagger API documentation.
